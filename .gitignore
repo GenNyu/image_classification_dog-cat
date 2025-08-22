@@ -1,0 +1,15 @@
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- OS/IDE junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
