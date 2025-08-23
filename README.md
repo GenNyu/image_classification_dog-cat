@@ -6,6 +6,7 @@ A simple image classification project to distinguish **dogs** vs **cats**.
 
 ## Project Tree
 
+```
 ./
 ├─ README.md
 ├─ requirements.txt
@@ -21,6 +22,7 @@ A simple image classification project to distinguish **dogs** vs **cats**.
 ├─ train.py
 ├─ predict.py
 └─ predict\_tm.py
+```
 
 ---
 
@@ -87,4 +89,18 @@ Class: dog
 Confidence Score: 0.973
 ```
 
+---
 
+## Deploy with Streamlit
+
+* The Streamlit library is included in requirements.txt.
+* Make sure app.py exists (or change the command to your actual entry file).
+
+```bash
+streamlit run app.py
+```
+
+Your browser will open the UI:
+* Choose between two model options: Self-trained and Teachable Machine.
+* Upload/select an image to run prediction.
+* The app will display the predicted class and confidence.
