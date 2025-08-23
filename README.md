@@ -12,6 +12,8 @@ A simple image classification project to distinguish **dogs** vs **cats**.
 ├─ requirements.txt
 ├─ .git/
 ├─ .gitignore
+├─ docs/
+│  ├─ ui_demo.png
 ├─ data/
 │  ├─ train/
 │  └─ val/
@@ -105,4 +107,4 @@ Your browser will open the UI:
 * Upload/select an image to run prediction.
 * The app will display the predicted class and confidence.
 
-![Dog vs Cat Classifier UI](docs/ui-demo.png)
+![Dog vs Cat Classifier UI](docs/ui_demo.png)
