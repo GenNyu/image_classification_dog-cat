@@ -16,7 +16,7 @@ A simple image classification project to distinguish **dogs** vs **cats**.
 │  ├─ train/
 │  └─ val/
 ├─ models/
-│  ├─ dogcat\_mobilenetv2.keras
+│  ├─ dogcat_mobilenetv2.keras
 │  ├─ keras\_model.h5
 │  └─ labels.txt
 ├─ train.py
@@ -104,3 +104,5 @@ Your browser will open the UI:
 * Choose between two model options: Self-trained and Teachable Machine.
 * Upload/select an image to run prediction.
 * The app will display the predicted class and confidence.
+
+![Dog vs Cat Classifier UI](docs/ui-demo.png)
