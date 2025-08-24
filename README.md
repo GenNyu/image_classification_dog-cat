@@ -108,3 +108,7 @@ Your browser will open the UI:
 * The app will display the predicted class and confidence.
 
 ![Dog vs Cat Classifier UI](docs/ui_demo.png)
+
+---
+## Dataset
+Kaggles: ```https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification?select=train```
